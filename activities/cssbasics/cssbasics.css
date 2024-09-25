@@ -1,0 +1,9 @@
+main p{
+    color:blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+}
+footer p {
+    color: darkcyan;
+}
