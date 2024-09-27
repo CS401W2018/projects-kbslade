@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#first {
+    color: blue;
+}
+
+.green{
+    color: chartreuse;
+}
+.bigger{
+    font-size: 24pt;
+}
+main .green{
+    font-family: Jokerman;
+}
