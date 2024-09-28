@@ -1,0 +1,28 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkslategray
+    }
+header nav{
+    color:darkslateblue
+}
+
+main{
+    color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#family{
+    font-size: larger;
+    font-weight: 600;
+}
+.navy{
+    color:midnightblue;
+    font-weight: 500;
+}
+.green{
+    color: darkseagreen;
+    font-size:small
+}
+footer{
+    font-family: cursive;
+    color:rgb(87, 61, 138)
+}

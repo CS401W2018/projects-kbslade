@@ -4,6 +4,9 @@ main p{
     font-weight: bold;
     font-size: smaller;
 }
-footer p {
+main span{
+    color: rgb(147, 111, 18);
+}
+footer p{
     color: darkcyan;
 }
