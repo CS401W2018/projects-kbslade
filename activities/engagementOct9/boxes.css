@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+    font-size: 13pt;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border: thin solid black;
+}
+
+header {
+    background-color: rgb(42, 107, 107);
+    width: 300px;
+    margin: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+nav {
+    background-color: yellowgreen;
+    height: 50px;
+    margin-top: 100px;
+}
