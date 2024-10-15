@@ -81,3 +81,7 @@ nav a:hover {
 .clear {
     clear: both;
 }
+footer {
+    color: rgba(32, 178, 171, 0.645);
+    text-shadow: #22333b;
+}
