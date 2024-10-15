@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:200;
+    line-height:normal;
+    background-color: #22333b;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color:#eae0d5;
+    border: thin solid black;
+    color:rgba(32, 178, 171, 0.645);
+}
+
+main {
+    color: #0a0908;
+    padding-left: 20px;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    font-style: italic;
+    text-decoration-color: #22333b;
+    text-transform: capitalize;
+    text-shadow:#0a0908;
+    background-color: #1d3557;
+    height:100px;
+    background-image: url(oldBooks.jpg);
+}
+
+nav {
+    background-color:#5e503f;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: block;
+    background-color:rgba(32, 178, 171, 0.645);
+    color: #eae0d5;
+    border-bottom: thin solid #0081a7;
+    padding: 10px 20px;
+    float: left;
+    margin-left: 130px;
+    box-shadow: #0081a7;
+}
+
+nav a:hover {
+    color: #5e503f;
+    background-color: #eae0d5;
+}
+
+#charlesDickens {
+    width: 250px;
+    border-radius: none;
+    float: right;
+}
+
+#charlesDickens img{
+    width: 250px;
+}
+
+.caption {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
