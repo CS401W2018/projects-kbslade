@@ -25,7 +25,7 @@ header {
     font-style: italic;
     text-decoration-color: #22333b;
     text-transform: capitalize;
-    text-shadow:#0a0908;
+    text-shadow:1px 1px #0a0908;
     background-color: #1d3557;
     height:100px;
     background-image: url(oldBooks.jpg);
@@ -36,7 +36,7 @@ nav {
     height: 50px;
     margin-top: 50px;
     text-align: center;
-    text-shadow: 10px;
+    text-shadow: .5px .5px #22333b;
 }
 
 nav ul {
@@ -56,7 +56,7 @@ nav a {
     padding: 10px 20px;
     float: left;
     margin-left: 130px;
-    box-shadow: #0081a7;
+    box-shadow: 1px 1px white;
 }
 
 nav a:hover {
@@ -66,7 +66,8 @@ nav a:hover {
 
 #charlesDickens {
     width: 250px;
-    border-radius: none;
+    border: 2px solid #5e503f;
+    border-radius: 25px;
     float: right;
 }
 
@@ -83,5 +84,5 @@ nav a:hover {
 }
 footer {
     color: rgba(32, 178, 171, 0.645);
-    text-shadow: #22333b;
+    text-shadow: 1px 1px #22333b;
 }
