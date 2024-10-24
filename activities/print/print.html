@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" media="screen">
+    <link rel="stylesheet" href="print.css" media="print">
+
+    <title>Mountain</title>
+</head>
+<body>
+    <header>
+        <h1>Mountain in Seasons</h1>
+    </header>
+    <nav>
+        <a href="pics">Winter</a>
+        <a href="mt">Spring</a>
+        <a href="sun">Summer</a>
+        <a href="leaves">Autumn</a>
+    </nav>
+    <main>
+        <h2>Cards</h2>
+        <div class="row">
+            <div class="card">
+                <img src="mountain.jpg" alt="Mountain first frost with orange leaves on trees">
+                <h2>First Frost</h2>
+                <p>Mountain one autumn morning</p>
+            </div>
+            <div class="card">
+                <img src="mountain.jpg" alt="Mountain first frost with orange leaves on trees">
+                <h2>First Frost</h2>
+                <p>Mountain one autumn morning</p>
+            </div>
+
+            <div class="card">
+                <img src="mountain.jpg" alt="Mountain first frost with orange leaves on trees">
+                <h2>First Frost</h2>
+                <p>Mountain one autumn morning</p>
+            </div>
+        </div>
+        <h2>Why is the viewport meta tag important?</h2>
+        <p>The viewport meta tag is in the html text above the body (in the head category). It tells the page that no matter what the type of device that the person is using (i.e. mobile, desktop, etc.), the page will adjust to the width of the device.</p>
+        <h2>How can you adjust the CSS for printing?</h2>
+        <p>You create a separate css stylesheet to print "print.css" tagged with media="print". You copy your main .css page and change the few items to make it more print friendly. </p>
+        <h2>When would you want to adjust the CSS for printing?</h2>
+        <p>You may want to change the font to a serif font, if your page is in a sans-serif font, to print easier. You can take out things, like the navigation bar (set it to "display: none;), since you don't need links on a printed page. That way, when the person wants to print the page, it'll be adjusted specifically for printing.</p>
+
+        <p>You'd add the print.css and adjust it for printing when the site is something that people would need to print, like tickets or cards.</p>
+    </main>
+    <footer>
+        &copy;2024 Katie Slade
+    </footer>
+</body>
+</html>

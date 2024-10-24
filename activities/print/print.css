@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+header {
+    background-color: #7ea0b1;
+}
+
+nav {
+    display: none;
+}
+
+nav a {
+    display: block;
+    padding: 10px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(186, 154, 72);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width: 250px;
+    border: thin solid #303e45;
+    box-shadow: 3px 3px 3px rgba(36, 48, 47, 0.5);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+}
