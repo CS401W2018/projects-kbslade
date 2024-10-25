@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resp.css" media="screen">
+    <link rel="stylesheet" href="print.css" media="print">
+
+    <title>Mountain</title>
+</head>
+<body>
+    <header>
+        <h1>Mountain in Seasons</h1>
+    </header>
+    <nav>
+        <a href="pics">Winter</a>
+        <a href="mt">Spring</a>
+        <a href="sun">Summer</a>
+        <a href="leaves">Autumn</a>
+    </nav>
+    <main>
+        <h2>Cards</h2>
+        <div class="row">
+            <div class="card">
+                <img src="mountain.jpg" alt="Mountain first frost with orange leaves on trees">
+                <h2>left First Frost</h2>
+                <p>Mountain one autumn morning</p>
+            </div>
+            <div class="card main-card">
+                <img src="mountain.jpg" alt="Mountain first frost with orange leaves on trees">
+                <h2>center First Frost</h2>
+                <p>Mountain one autumn morning</p>
+            </div>
+
+            <div class="card">
+                <img src="mountain.jpg" alt="Mountain first frost with orange leaves on trees">
+                <h2>right First Frost</h2>
+                <p>Mountain one autumn morning</p>
+            </div>
+        </div>
+        <h2>Why is the viewport meta tag important?</h2>
+        <p>The viewport meta tag is in the html text above the body (in the head category). It tells the page that no matter what the type of device that the person is using (i.e. mobile, desktop, etc.), the page will adjust to the width of the device.</p>
+        <h2>When you select the same tag twice, and in one of them you say "flex-direction: column;" and the other says "flex-direction: row;", which one takes priority?</h2>
+        <p>The one you give last is the one that it'll do. You could also add the word "important" after the direction and it'll force it to do it, - so in the example, "flex-direction: column important", it'll make the column even though the row is different. </p>
+        <h2>How do you change the CSS for a web page displayed on a phone?</h2>
+        <p> You add a media tag ("@media only screen and (max-width:800px), then set the parameters you'd like when it's on a mobile device.")
+        </p>
+        <p>Notes: The content for the mobile phone would be first. Check the mobile view in the browser using the "inspector" tools. You can select different device views. </p>
+    </main>
+    <footer>
+        &copy;2024 Katie Slade
+    </footer>
+</body>
+</html>
