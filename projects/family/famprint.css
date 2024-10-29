@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+ header {
+    display: none;
+ }
+
+nav {
+    display: none;
+}
+
+nav a{
+    display: block;
+    padding: 10px 5px;
+    color: black;
+}
+
+nav a:hover {
+    background-color:#3d405b;
+    color:#f4f1de;
+}
+
+.parent {
+    display: flex;
+
+}
+
+aside {
+    background-color: #eddea4;
+    width: 20%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 9pt;
+}
+
+aside ul{
+    text-align: left;
+}
+
+figure img {
+    width: 200px;
+}
+
+main {
+    background-color: #f4f1de;
+    width: 80%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-around;
+}
+
+.card {
+    width: 250px;
+    border: thin solid #3d405b;
+    text-align: left;
+}
+
+.card h4{
+    text-align: center;
+}
+
+.card img{
+    width: 250px;
+}
+
+.card p {
+    margin: 10pt;
+}
+
+footer {
+    display: none;
+}

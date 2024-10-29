@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3d405b;
+    margin: 5px;
+}
+ header {
+    background-color: #81b29a;
+    text-align: center;
+ }
+ header h1{
+    margin: 2px;
+ }
+
+nav {
+    background-color:#f2cc8f;
+    color: #3d405b;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    display: block;
+    padding: 10px 5px;
+    color: black;
+}
+
+nav a:hover {
+    background-color:#3d405b;
+    color:#f4f1de;
+}
+
+.parent {
+    display: flex;
+
+}
+
+aside {
+    background-color: #eddea4;
+    width: 20%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 9pt;
+}
+
+aside ul{
+    text-align: left;
+}
+
+figure img {
+    width: 200px;
+}
+
+main {
+    background-color: #f4f1de;
+    width: 80%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-around;
+}
+
+.card {
+    width: 250px;
+    border: thin solid #3d405b;
+    text-align: left;
+}
+
+.card h4{
+    text-align: center;
+}
+
+.card img{
+    width: 250px;
+}
+
+.card p {
+    margin: 10pt;
+}
+
+footer {
+    background-color: #e07a5f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #3d405b;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a{
+        border-bottom: thin solid white;
+    }
+
+    aside {
+        width: auto;
+        text-align: left;
+    }
+
+    aside img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .card {
+        width: 100%;
+        margin: 2px;
+    }
+
+    .parent {
+        flex-direction: column-reverse;
+    }
+}
