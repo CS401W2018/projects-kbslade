@@ -14,10 +14,10 @@
         <a href="fakelink">link</a>
     </nav>
     <main>
-        <h2>Class Schedule</h2>
-        <table border="1">
+        <table class="schedule">
+            <caption>My Schedule</caption>
             <thead>
-                <tr><td>Dept</td><td>Number</td><td>Time</td><td>Location</td><td>Credits</td>
+                <tr><td>Department</td><td>Number</td><td>Time</td><td>Location</td><td>Credits</td>
                 </tr>
             </thead>
             <tbody>
@@ -47,6 +47,29 @@
                 </tr>
             </tfoot>
         </table>
+        <h2>Why don't we use the border property?</h2>
+        <p>We don't use border property in html because it won't allow us to "style" it in CSS. It's something they used in the past, but it's very inflexible, especially to mobile devices.</p>
+        <h2>What is the easiest way to color every other row a different color?</h2>
+        <p>you can specify having every other row (odd or evens) in the CSS sheet. 
+            i.e. .schedule thead, .schedule tfoot {
+                background-color: aquamarine
+            }
+            
+            .schedule tbody tr:nth-child(even) {
+                background-color: blueviolet;
+            }
+        </p>
+        <h2>When should we use a table?</h2>
+        <p>To display data, like for stats, your schedule or other info. </p>
+        <h2>Extra notes:</h2>
+        <ul>
+            <li> border-spacing and border-collapse only apply to tables.</li>
+            <li> .schedule td, .schedule th <strong>you can add another part, like "th" to the line with the "td" to get them styled the same. You just have to add it with a comma. Also, you'd want to specify which one if you have more than one table on your site and want them to be different or specific to that one table.</strong>{
+                border: thin solid black;
+                padding: 10px;}
+            </li>
+            <li>To label your table, you can use a caption tag. However, to move the caption, like to the bottom, you can only do that in CSS with "Caption-side:"</li>
+        </ul>
     </main>
     <footer>
         &copy;2024 Katie Slade
