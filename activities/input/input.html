@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Web Design</title>
+</head>
+<body>
+    <header><h1>Web Design</h1></header>
+    <main>
+        <form action="processing.html" method="post">
+            First Name: <input type="text" name="first"><br>
+            Last Name: <input type="text" name="last"><br>
+            Password: <input type="password" name="pass"><br>
+            <input type="checkbox" name="remember" checked > Remember Me <br>
+            Class:
+                <input type="radio" name="class" value="freshman" required> Freshman <br>
+                <input type="radio" name="class" value="sophomore"> Sophomore <br>
+                <input type="radio" name="class" value="junior"> Junior <br>
+                <input type="radio" name="class" value="senior"> Senior <br>
+            Comments: <textarea name="comments"></textarea> </textarea> <br>
+            State: <select name="state">
+                <option value="blank"></option>
+                <option value="HI">Hawaii</option>
+                <option value="CA">California</option>
+                <option value="UT">Utah</option>
+                <option value="CO">Colorado</option>
+            </select><br>
+           
+            <input type="submit">
+
+        </form>
+
+        <h3>Extra Notes and Engagement Questions:</h3>
+        <ul>
+            <li>the "?"in the address is the query string</li>
+            <li>"radio" means 1, meaning it'll select only one</li>
+            <li>checkbox is one input (like y/n)</li>
+        </ul>
+        <h4>The form tag has an "action" attribute. What does it do?</h4>
+        <p>The action attribute allows you to input information and do something. </p>   
+        <h4>The form tag has a "method" attribute. What does it do?</h4>
+        <p>The method attribute in the form action line, can be method="get"; can also do method="post" and it won't show the info on the browser line. But is still not secure. You need the "s" on https. It makes it encrypted.</p>
+        <h4>What is the difference between a "POST" and a "GET"?
+        </h4>
+            <ul>
+                <li>We use a "get" request when you want to read (or get) something. Looking up something on Google is a good example. (The words you used to look it up are in the browser line.)</li>
+                <li>We use a "post" request when you are changing things on the server, like creating an account, when you submit your assignment, when you're adding info to the server.</li>      
+            </ul>
+    </main>
+    <footer>
+        &copy;2024 Katie Slade
+    </footer>
+</body>
+</html>
