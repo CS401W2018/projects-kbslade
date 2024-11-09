@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>SLP Hire Form</title>
+</head>
+<body>
+    <header>
+        <h1>New Speech-Language Pathologist Hire Form</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Fill out form</legend>
+                <div class="form-row">
+                    <label for="fname">First Name:</label>
+                    <input id="fname" type="text" name="first" required placeholder="First Name">
+                </div>
+                <div class="form-row">
+                    <label for="lname">Last Name:</label>
+                    <input id="lname" type="text" name="last" required placeholder="Last Name">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email address" required placeholder="email address">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input id="pass" type="password" name="pass" required placeholder="password">
+                </div>
+                <div class="form-row">
+                    <form>
+                        <label for="start">Start Date:</label>
+                        <input type="date" id="start" name="start">
+                    </form>
+                </div>
+                <div class="form-row">
+                    <label for="place">Workplace Experience:</label>
+                    <select name="place" id="place">
+                        <option value="blank"></option>
+                        <option value="hospital">Medical Center</option>
+                        <option value="Rehabilitation Center">Rehab Center</option>
+                        <option value="Schools">Schools</option>
+                        <option value="University">University</option>
+                        <option value="Private">Private Practice</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="years">Work Experience:</label>
+                    <select name="years" id="years">
+                        <option value="blank"></option>
+                        <option value="0">Less than 12 months</option>
+                        <option value="1">1 year</option>
+                        <option value="2">2 years</option>
+                        <option value="3">3 years</option>
+                        <option value="4">4 years</option>
+                        <option value="5">5 years</option>
+                        <option value="6">6+ years</option>
+                    </select>
+                </div>
+                <div class="check-row">
+                    <input type="checkbox">
+                    <label for="checkbox">ASHA CCC certified</label>
+                </div>
+                <div>
+                    Area of Interest:
+                    <label> <input type="radio" name="class" value="Aphasia">Aphasia</label>
+                    <label> <input type="radio" name="class" value="Apraxia">Apraxia</label>
+                    <label> <input type="radio" name="class" 
+                    value="Dysphagia">Dysphagia</label>
+                    <label> <input type="radio" name="class" value="Language">Language Disorders</label>
+                    <label> <input type="radio" name="class" value="Phonology">Phonology/Speech Sound Disorders</label>
+                    <label> <input type="radio" name="class" value="Stuttering">Stuttering</label>
+                    <label> <input type="radio" name="class" value="Voice">Voice Disorders</label>
+                </div>
+                <div>
+                    Other Interests not listed:
+                    <textarea name="other" id="other"></textarea>
+                </div>
+                <div class="form-row">
+                    <input type="submit">
+                </div>
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        &copy;2024 Katie Slade
+    </footer>
+</body>
+</html>

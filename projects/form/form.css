@@ -1,0 +1,35 @@
+body {
+    background-color: #e0e2db;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    background-color:#b8bdb5;
+    margin: 10px;
+}
+
+footer {
+    background-color: #d2d4c8;
+}
+
+main {
+    background-color: #889696;
+    font-size: 12pt;    
+}
+
+legend {
+    background-color: #d2d4c8;
+    padding: 5px;
+    border: thin solid #889696;
+}
+
+.form-row {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
