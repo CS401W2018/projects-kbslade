@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Web Design</title>
+</head>
+<body>
+    <header><h1>Web Design</h1></header>
+    <main>
+        <form action="processing.html" method="post">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <div class="form-row">
+                    <label for="fname">First Name: </label>
+                    <input id="fname" type="text" name="first" required placeholder="FirstName">
+                </div>
+                <div class="form-row">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="last" placeholder="Last Name">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass">
+                </div>
+                <div class="check-row">
+                    <input type="checkbox">
+                    <label for="checkbox" name="remember" checked> 
+                        Remember Me 
+                    </label>
+                </div>
+                
+                <div class="form-row">
+                    Class:
+                    <label><input type="radio" name="class" value="freshman" required> Freshman </label>
+                    <label><input type="radio" name="class" value="sophomore"> Sophomore</label>
+                    <label><input type="radio" name="class" value="junior"> Junior</label>
+                    <label><input type="radio" name="class" value="senior"> Senior</label>
+                </div>
+                <div>
+                    <label>Comments: <textarea name="comments"></textarea> </textarea> </label>
+                </div>
+                
+                <div class="form-row">
+                    <label for="state"> State: </label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="HI">Hawaii</option>
+                        <option value="CA">California</option>
+                        <option value="UT">Utah</option>
+                        <option value="CO">Colorado</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+
+        <h2>What are different ways to style your form?</h2>
+        <p>You can put break (br) at the end of the lines in html or you can use CSS to style it. Using css to style it is best as it adapts to mobile and has more properties you can change to cutomize it to what you'd like it to look like. </p>
+        <h2>Why does the professor like to use flex?</h2>
+        <p>Using flex is more mobile friendly and less rigid than grid. </p> 
+    </main>
+    <footer>
+        &copy;2024 Katie Slade
+    </footer>
+</body>
+</html>
