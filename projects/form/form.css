@@ -6,15 +6,12 @@ body {
 header {
     background-color:#b8bdb5;
     margin: 10px;
+    text-align: center;
 }
 
 footer {
     background-color: #d2d4c8;
-}
-
-main {
-    background-color: #889696;
-    font-size: 12pt;    
+    font-size: smaller;
 }
 
 legend {
@@ -23,13 +20,64 @@ legend {
     border: thin solid #889696;
 }
 
-.form-row {
+fieldset {
+    box-shadow: 2px 2px 2px #e0e2db;
+    background-color: #889696;
+    font-size: 12pt; 
+}
+
+.form-row, .check-row {
     display: flex;
-    margin: 10px;
     gap: 10px;
+    margin: 10px;
 }
 
 .form-row label {
-    width: 150px;
+    width: 200px;
     text-align: right;
+}
+
+.interest {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12pt;
+}
+
+.interest label {
+    margin: 10px;
+    gap: 10px 0;
+}
+
+.spacer {
+    width: 200px;
+    text-align: right;
+}
+
+.sub {
+    width: 200px;
+    text-align: right;
+}
+
+input, select, textarea {
+    font-size: 14pt;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: papayawhip;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-row, .check-row {
+        flex-direction: column;
+    }
+    .form-row label, .spacer, .sub {
+        text-align: left;
+    }
 }

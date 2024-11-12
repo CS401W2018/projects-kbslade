@@ -11,7 +11,7 @@
         <h1>New Speech-Language Pathologist Hire Form</h1>
     </header>
     <main>
-        <form action="">
+        <form action="processing.html" method="post">
             <fieldset>
                 <legend>Fill out form</legend>
                 <div class="form-row">
@@ -31,15 +31,16 @@
                     <input id="pass" type="password" name="pass" required placeholder="password">
                 </div>
                 <div class="form-row">
-                    <form>
-                        <label for="start">Start Date:</label>
-                        <input type="date" id="start" name="start">
-                    </form>
+                    <label for="start">Start Date:</label>
+                    <input type="date" id="start" name="start">
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label><input type="checkbox" name="certified" checked>ASHA CCCs</label>
                 </div>
                 <div class="form-row">
                     <label for="place">Workplace Experience:</label>
                     <select name="place" id="place">
-                        <option value="blank"></option>
                         <option value="hospital">Medical Center</option>
                         <option value="Rehabilitation Center">Rehab Center</option>
                         <option value="Schools">Schools</option>
@@ -51,7 +52,6 @@
                 <div class="form-row">
                     <label for="years">Work Experience:</label>
                     <select name="years" id="years">
-                        <option value="blank"></option>
                         <option value="0">Less than 12 months</option>
                         <option value="1">1 year</option>
                         <option value="2">2 years</option>
@@ -62,25 +62,17 @@
                     </select>
                 </div>
                 <div class="check-row">
-                    <input type="checkbox">
-                    <label for="checkbox">ASHA CCC certified</label>
+                    <div class="sub">Area of Interest:</div>
+                    <label> <input type="radio" name="interest" value="Language">Language Disorders</label>
+                    <label> <input type="radio" name="interest" value="Phonology">Speech/Motor Disorders</label>
+                    <label> <input type="radio" name="interest" value="Other">Other</label>
                 </div>
-                <div>
-                    Area of Interest:
-                    <label> <input type="radio" name="class" value="Aphasia">Aphasia</label>
-                    <label> <input type="radio" name="class" value="Apraxia">Apraxia</label>
-                    <label> <input type="radio" name="class" 
-                    value="Dysphagia">Dysphagia</label>
-                    <label> <input type="radio" name="class" value="Language">Language Disorders</label>
-                    <label> <input type="radio" name="class" value="Phonology">Phonology/Speech Sound Disorders</label>
-                    <label> <input type="radio" name="class" value="Stuttering">Stuttering</label>
-                    <label> <input type="radio" name="class" value="Voice">Voice Disorders</label>
-                </div>
-                <div>
-                    Other Interests not listed:
+                <div class="form-row">
+                    <label for="other">Other Interests:</label>
                     <textarea name="other" id="other"></textarea>
                 </div>
                 <div class="form-row">
+                    <div class="sub"></div>
                     <input type="submit">
                 </div>
 
