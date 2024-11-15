@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formProc.css">
+    <title>Form Processing with Java-script</title>
+</head>
+
+<body>
+    <header>
+        <h1>Form Processing with Java-script</h1>
+    </header>
+
+    <main>
+        <div id="message"></div>
+       <form action="processing.html" method="post" id="myForm">
+            First Name: <input type="text" id="firstName" name="first" placeholder="First Name">
+            Last Name: <input type="text" id="lastName" name="last" placeholder="Last Name">
+            Password: <input type="text" name="pass" id="password"><br>
+            <input type="checkbox" name="remember" checked id="remember">Remember Me<br>
+            Age: <input type="number" name="age" id="age"><br>
+            Class:
+            <input type="radio" value="freshman">Freshman<br>
+            <input type="radio" value="sophomore">Sophomore<br>
+            <input type="radio" value="junior">Junior<br>
+            <input type="radio" value="senior">Senior<br>
+            State: <select name="state" id="state">
+                <option value="blank" disabled selected>Make Selection</option>
+                <option value="hi">Hawaii</option>
+                <option value="ca">California</option>
+                <option value="co">Colorado</option>
+                <option value="ut">Utah</option>
+            </select><br>
+            <input type="submit">
+       </form>
+   </main>
+
+    <footer>
+        &copy;2024 Katie Slade
+    </footer>
+
+    <script src="form.js"></script>
+    
+    <h4>What is AJAX?</h4>
+    <p>Asynchronous (out of order) Java-script and XML (or JSON). </p>
+    <h4>Why do you put your JS Code in a separate file?</h4>
+    <p>Just like you put CSS in another place, it's good to put Java-script in it's own file. That way you can style them easier.</p><br>
+    <h2>Questions from Wednesday:</h2>
+    <h3>What is JavaScript? How did it get its name?</h3>
+    <p></p>
+    <h3>What are the two ways you can run JavaScript?</h3>
+    <p></p>
+    <h3>What was the most popular front-end js library?</h3>
+    <p></p>
+    <h3>What is the most popular front-end js library today?</h3>
+    <p></p>
+</body>
+</html>
