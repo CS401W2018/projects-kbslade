@@ -11,24 +11,29 @@
         <h1>New Speech-Language Pathologist Hire Form</h1>
     </header>
     <main>
-        <form action="processing.html" method="post">
+        <div id="message"></div>
+        <form action="processing.html" method="post" id="myForm">
             <fieldset>
                 <legend>Fill out form</legend>
                 <div class="form-row">
                     <label for="fname">First Name:</label>
-                    <input id="fname" type="text" name="first" required placeholder="First Name">
+                    <input id="fname" type="text" name="first" placeholder="First Name">
                 </div>
                 <div class="form-row">
                     <label for="lname">Last Name:</label>
-                    <input id="lname" type="text" name="last" required placeholder="Last Name">
+                    <input id="lname" type="text" name="last" placeholder="Last Name">
                 </div>
                 <div class="form-row">
                     <label for="email">Email:</label>
-                    <input id="email" type="email" name="email address" required placeholder="email address">
+                    <input id="email" type="email" name="email address" placeholder="email address">
+                </div>
+                <div class="form-row">
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" placeholder="years" id="age">
                 </div>
                 <div class="form-row">
                     <label for="pass">Password:</label>
-                    <input id="pass" type="password" name="pass" required placeholder="password">
+                    <input id="password" type="password" name="pass" placeholder="password">
                 </div>
                 <div class="form-row">
                     <label for="start">Start Date:</label>
@@ -82,5 +87,8 @@
     <footer>
         &copy;2024 Katie Slade
     </footer>
+
+    <script src="form.js"></script>
+
 </body>
 </html>
