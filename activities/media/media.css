@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#moonbeam {
+    width: 350px;
+    margin: 40px;
+    border: thin solid black;
+    transform: rotate(8deg)
+}
+
+#moonbeam img {
+    width: 350px;
+}
+
+.btn {
+    display: block;
+    padding: 10px;
+    color: brown;
+    background-color: violet; 
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 3s ease-in-out;
+    transition-delay: 2s;
+}
+
+.btn:hover {
+    background-color: darksalmon;
+    color: black;
+}
