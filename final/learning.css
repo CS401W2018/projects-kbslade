@@ -1,4 +1,65 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #a1b5a9;
+    margin: 5px;
 }
 
+header {
+    background-color: whitesmoke;
+    border: 10px solid #6e7160;
+    color: #34332e;
+    font-family: fantasy;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    background-color: #cfe1b9;
+    color: black;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #87986a;
+    color: white;
+}
+
+main {
+    background-color: white;
+    margin: 10px;
+}
+
+footer {
+    background-color: #6e7160;
+}
+
+.hdr {
+    text-align: center;
+    color: #573d7f;
+}
+
+.activity {
+    border: solid thin black;
+}
+
+.activity thead td{
+    font-weight: bold;
+    background-color: rgb(187, 202, 162);
+    text-align: center;
+}
+
+.activity tbody td{
+    border: thin solid black;
+}
+.b {
+    background-color:#cce3de;
+}
+.current {
+    background-color: gray;
+}
