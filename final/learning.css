@@ -72,7 +72,6 @@ footer {
     display: flex;
     gap: 10px;
     margin: 10px;
-    box-shadow: #87986a;
 }
 
 .form-row label {
