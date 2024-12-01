@@ -35,7 +35,7 @@ nav a:hover {
 
 main {
     background-color: white;
-    padding: 15px;
+    padding: 20px;
 }
 
 footer {
@@ -114,6 +114,17 @@ form legend {
 #button:hover {
     background-color: #573d7f;
     color: whitesmoke;
+}
+
+.imageCard {
+    width: 300px;
+    border: thin solid black;
+    padding: 5px;
+    font-size: 10pt;
+}
+
+.imageCard img {
+    width: 300px;
 }
 
 @media screen and (max-width:700px) {

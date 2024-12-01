@@ -13,8 +13,8 @@ document.getElementById("question").addEventListener("submit", function(event) {
     const snack = document.getElementById("snack").value;
     const drink = document.getElementById("drink").value;
 
-    if (!name || !birthday || !like || !friends || !involved || !learn || !develop|| !snack || !drink) {
-        alert("Cannot be left blank.");
+    if (!name || !birthday || !like || !friends || !involved || !describe || !school || !learn || !develop|| !teach || !snack || !drink) {
+        alert("Item(s) cannot be left blank.");
         return;
     }
 
@@ -41,7 +41,7 @@ document.getElementById("question").addEventListener("submit", function(event) {
         if (xhr.readyState === 4 && xhr.status ===200) {
             const response = JSON.parse(xhr.response);
             document.getElementById('message').innerHTML = response.message;
-            document.getElementById('myForm').innerHTML = " ";
+            document.getElementById('question').innerHTML = " ";
         } else if (xhr.readyState === 4) {
             alert('Error submitting form.');
         }
