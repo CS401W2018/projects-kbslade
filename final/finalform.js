@@ -1,25 +1,37 @@
-document.getElementById("myForm").addEventListener("submit", function(event) {
+document.getElementById("question").addEventListener("submit", function(event) {
     event.preventDefault();
-    const first = document.getElementById("fname").value;
-    const last = document.getElementById("lname").value;
-    const age = document.getElementById("age").value;
+    const name = document.getElementById("name").value;
+    const birthday = document.getElementById("birthday").value;
+    const like = document.getElementById("like").value;
+    const friends = document.getElementById("friends").value;
+    const involved = document.getElementById("involved").value;
+    const describe = document.getElementById("describe").value;
+    const school = document.getElementById("school").value;
+    const learn = document.getElementById("learn").value;
+    const develop = document.getElementById("develop").value;
+    const teach = document.getElementById("teach").value;
+    const snack = document.getElementById("snack").value;
+    const drink = document.getElementById("drink").value;
 
-    if (!first || !last) {
-        alert("First name and last name cannot be blank.");
+    if (!name || !birthday || !like || !friends || !involved || !learn || !develop|| !snack || !drink) {
+        alert("Cannot be left blank.");
         return;
     }
 
-    if (!age || age < 18) {
-        alert("You must be 18 years or older to submit this form.");
-        return;
-    }
 
     const formData = {
-        firstName: first,
-        lastName: last,
-        password: document.getElementById("password").value,
-        age: age,
-        
+        name: name,
+        birthday: birthday,
+        like: like,
+        friends: friends,
+        involved: involved,
+        describe: describe,
+        school: school,
+        learn: learn,
+        develop: develop,
+        teach: teach,
+        snack: snack,
+        drink: drink,
     }
 
     const xhr = new XMLHttpRequest();

@@ -25,8 +25,8 @@
         <blockquote class="hdr"><em>"Jesus increased in wisdom and stature, and in favor with God and man." - John 2:52</em></blockquote>
         <h2>Getting to Know You!</h2>
         <div id="message"></div>
-        <form action="">
-            <fieldset>
+        <form action="processing.html" method="post" id="question">
+            <fieldset class="formBody">
                 <legend>Please fill out the form to help us get to know you.</legend>
                 <div class="form-row">
                     <label for="name">Name:</label>
@@ -37,12 +37,16 @@
                     <input id="birthday" type="text" name="birthday" placeholder="Month and Day">
                 </div>
                 <div class="form-row">
-                    <label for="like">Things I like to do with family/friends:</label>
+                    <label for="like">Things I like to do with family:</label>
                     <input id="like" type="text" name="like">
                 </div>
                 <div class="form-row">
+                    <label for="friends">Things I like to do with friends:</label>
+                    <input id="friends" type="text" name="friends">
+                </div>
+                <div class="form-row">
                     <label for="involved">I am involved in:</label>
-                    <input id="involved" type="text" name="involved">
+                    <input id="involved" type="text" name="involved" placeholder="sports, clubs, after school activites, etc.">
                 </div>
                 <div class="form-row">
                     <label for="describe">One word to describe me:</label>
@@ -71,6 +75,10 @@
                 <div class="form-row">
                     <label for="drink">Favorite drink:</label>
                     <input id="drink" type="text" name="drink">
+                </div>
+                <div class="form-row">
+                    <div class="sub"></div>
+                    <input type="submit" id="button">
                 </div>
             </fieldset>
         </form>
