@@ -165,16 +165,22 @@ form legend {
 }
 
 @media screen and (max-width:700px) {
+    header {
+        width: 100%;
+    }
+    
     nav a{
         float: none;
         display: block;
         width: 100%;
         text-align: center;
+        padding: 10px;
     }
     nav {
         flex-direction: column;
     }
     main {
+        width: 100%;
         padding: 3px;
     }
 
@@ -185,5 +191,14 @@ form legend {
     }
     .form-row label {
         text-align: left;
+    }
+    .mem {
+        width: 30%;
+    }
+    .info {
+        width: 70%;
+    }
+    .firstpic {
+        width: 
     }
 }
