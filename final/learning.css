@@ -42,6 +42,25 @@ footer {
     background-color: #6e7160;
     padding: 10px;
 }
+.parent {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    background-color: gray;
+}
+
+.aboutMe {
+    
+    height: 300px;
+    border: thin solid black;
+    font-size: 9.5pt;
+    padding: 12px;
+    box-shadow: #87986a;
+    border-radius: 30px;
+}
+
+.aboutMe img {
+    width: 100px;
+}
 
 .hdr {
     text-align: center;
