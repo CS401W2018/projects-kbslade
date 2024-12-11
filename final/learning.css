@@ -70,7 +70,9 @@ footer {
     flex-flow: row wrap;
     justify-content: space-between;
 }
-
+.card {
+    padding: 5px;
+}
 .card img {
     width: 150px;
     height: 150px;
