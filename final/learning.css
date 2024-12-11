@@ -42,6 +42,7 @@ footer {
     background-color: #6e7160;
     padding: 10px;
 }
+
 .parent {
     display: flex;
     flex-flow: row wrap-reverse;
@@ -49,17 +50,30 @@ footer {
 }
 
 .aboutMe {
-    
-    height: 300px;
     border: thin solid black;
-    font-size: 9.5pt;
+    font-size: 11pt;
     padding: 12px;
-    box-shadow: #87986a;
     border-radius: 30px;
+    display: flex;
+    gap: 25px;
 }
 
-.aboutMe img {
-    width: 100px;
+.mem {
+    width: 300px;
+}
+.mem img {
+    width: 100%;
+}
+
+.home {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
 }
 
 .hdr {
@@ -80,9 +94,11 @@ footer {
 .activity tbody td{
     border: thin solid black;
 }
+
 .b {
     background-color:#cce3de;
 }
+
 .current {
     background-color: rgb(129, 141, 113);
 }
@@ -118,6 +134,9 @@ form legend {
     width: 250px;  
 }
 
+.firstpic {
+    float: right;
+}
 #button {
     width: 150px;
     padding: 10px;
@@ -158,6 +177,7 @@ form legend {
     main {
         padding: 3px;
     }
+
     .form-row {
         width: 100%;
         display: flex;
